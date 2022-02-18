@@ -1,0 +1,6 @@
+tasks:
+  - init: |
+      docker-compose build web
+
+    command: |
+      echo 'USER_ID=$(id -u) GROUP_ID=$(id -g) docker-compose up -d web postgres redis'
