@@ -1,9 +1,13 @@
 tasks:
   - init: |
-      time docker-compose build web
+      date
+      docker-compose build web
+      date
 
     command: |
-      time docker-compose up -d web postgres redis
+      date
+      docker-compose up -d web postgres redis
+      date
 
 github:
   prebuilds:
