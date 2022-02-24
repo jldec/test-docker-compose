@@ -3,6 +3,8 @@ tasks:
       date
       docker-compose build web
       date
+      docker-compose pull postgres redis
+      date
 
     command: |
       date
