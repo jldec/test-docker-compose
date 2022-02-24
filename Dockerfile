@@ -1,4 +1,4 @@
-FROM FROM gitpod/workspace-full
+FROM gitpod/workspace-full
 
 RUN sleep 30
 
